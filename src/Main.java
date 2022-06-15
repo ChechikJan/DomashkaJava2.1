@@ -6,7 +6,8 @@ public class Main {
 
         if (addBalance < 1000) {
             bonus = 0;
-        } else { bonus = addBalance / 100;
+        } else {
+            bonus = addBalance / 100;
         }
         int newBalance = balance + addBalance + bonus;
 
